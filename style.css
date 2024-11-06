@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=WindSong:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inter, sans serif;
+}
+.bgYellow {
+    background-color: #F3C827;
+}
+
+.displayFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.spaceBetween {
+    justify-content: space-between;
+}
+.bold {
+    font-weight: 600;
+}
+.container{
+    /*background-color: red;*/
+    max-width: 1000px;
+    width: 100%; /* faut le mettre et faut l'admettre */
+    margin: auto;
+    
+}
+.btn {
+    background-color: #F66909;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+}
+.btn:hover{
+    background-color: #949494;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+/*HEADER */
+header {
+    /*background-color: aqua;*/
+    padding: 15px 10px;
+}
+
+a {
+   text-decoration: none; 
+   color: rgb(0, 0, 0);
+}
+li {
+    list-style: none;
+}
+.navHeader {
+    /*background-color: aquamarine;*/
+    width: 50%;
+}
+.alignItemCenter {
+    align-items: center;
+}
+.panier {
+    color: #F3C827;
+    font-size: 25px;
+}
+/* hero*/
+.hero {
+ height: 100vh;
+}
+h2{
+    font-family: "WindSong", cursive;
+    font-size: 130px;
+    font-weight: 500;
+
+}
+h1{
+    font-size: 32px;
+}
+h3 {
+    width: 100%;
+}
+.engagement p {
+ width: 50%;
+ margin-top: 15px;
+}
