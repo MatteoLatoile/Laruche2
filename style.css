@@ -44,6 +44,32 @@
     margin-top: 15px;
     transition: 0.3s;
 }
+h3 {
+    width: 100%;
+    margin-top: 30px;
+    color: #593E26;
+    font-size: 32px;
+    font-weight: 600;
+    
+}
+h4{
+    margin-top: 10px;
+}
+.marginTopBottom {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.marginBottom{
+    margin-bottom: 15px;
+}
+.paddingSectionUP{
+    padding: 30px 0px;
+}
+.paddingSectionDown{
+    padding: 0px 0px 10px 10px;
+}
+
+
 /*HEADER */
 header {
     /*background-color: aqua;*/
@@ -81,10 +107,87 @@ h2{
 h1{
     font-size: 32px;
 }
-h3 {
+/*Engagement*/
+.engagement p {
+ width: 45%;
+ margin-top: 15px;
+ margin-bottom: 15px;
+}
+.width30{
+    width: 30%;
+}
+/*bienfait du miel*/
+
+/*no class*/
+
+/* nos produit*/
+
+.card{
+	width: 300px;
+	box-shadow: 4px 4px 12px #00000025;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.imgcard {
+	display: block;
+	width: 267px;
+    height: 280px;
     width: 100%;
 }
-.engagement p {
- width: 50%;
- margin-top: 15px;
+.paddingCard{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.basketCard{
+    color: white;
+}
+/*Avis*/
+.starAside{
+    align-content: flex-start;
+}
+.fontAvis{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.width50{
+    width: 50%;
+}
+.width25{
+    width: 25%;
+}
+.fontName{
+    font-weight: 800;
+    font-size: 20px;
+}
+.marginLeft{
+    margin-left: 10px;
+}
+/* nous trouver*/
+.localisation{
+    justify-content: center;
+}
+.laRuche{
+    font-weight: 600;
+    font-size: 24px;
+    justify-content: center;
+    color: #1E150C;
+    ;
+}
+.fontAdress{
+    font-weight: 500;
+    font-size: 16px;
+}
+/*nous contacter*/
+.block{
+    display: flex;
+    align-content: flex-start;
+}
+.betweenVerticale{
+    display: flex;
+    justify-content: space-evenly;
+}
+.marginTop {
+
 }
