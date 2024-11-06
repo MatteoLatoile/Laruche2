@@ -36,7 +36,7 @@
     margin-top: 15px;
 }
 .btn:hover{
-    background-color: #949494;
+    background-color: #00c4b4;
     border-radius: 4px;
     padding: 10px;
     color: white;
@@ -54,6 +54,11 @@ h3 {
 }
 h4{
     margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1E150C;
+    ;
 }
 .marginTopBottom {
     margin-top: 15px;
@@ -112,10 +117,14 @@ h2{
     font-family: "WindSong", cursive;
     font-size: 130px;
     font-weight: 500;
+    color: #593E26;
+    ;
 
 }
 h1{
     font-size: 32px;
+    color: #593E26;
+
 }
 .btnheader{
     background-color: #ffffff;
@@ -124,7 +133,7 @@ h1{
 
 }
 .btnheader:hover{
-    background-color: #f7f7f7;
+    background-color: #eaeaea;
     border-radius: 4px;
     padding: 10px;
     transition: 0.3s;
