@@ -15,16 +15,16 @@
         <nav class="navHeader">
             <ul class="displayFlex spaceBetween bold">
                 <li>
-                    <a href="">Nos produits</a>
+                    <a href="#engagementId" class="btnheader">Engagement</a>
                 </li>
                 <li>
-                    <a href="">Notre savoir faire</a>
+                    <a href="#bienfaitsId" class="btnheader">Bienfaits du miel</a>
                 </li>
                 <li>
-                    <a href="">Notre histoire</a>
+                    <a href="#produitId" class="btnheader">Nos Produits</a>
                 </li>
                 <li>
-                    <a href="">Nous contacter</a>
+                    <a href="#clientsId" class="btnheader">Nos clients</a>
                 </li>
             </ul>
         </nav>
@@ -44,7 +44,7 @@
     <!-- Engagement -->
     <section class="engagement">
         <div class="container spaceBetween displayFlex">
-            <h3 class="">Engagement</h3>
+            <h3 id="engagementId">Engagement</h3>
             <p>Au cœur d'une vocation dédiée à la préservation de l'équilibre naturel, notre apiculteur incarne une
                 passion
                 inébranlable pour l'art ancien de l'apiculture. Imprégné de traditions transmises de génération en
@@ -64,8 +64,8 @@
         </div>
     </section>
     <!-- Bienfait du miel -->
-    <section class="bgYellow">
-        <h3 class="container marginTop">Bienfaits du miel</h3>
+    <section class="bgYellow paddingSectionUP">
+        <h3 class="container marginTop" id="bienfaitsId">Bienfaits du miel</h3>
         <div class="container spaceBetween displayFlex">
             <div class="width30">
                 <h4>Antioxydants naturels</h4>
@@ -91,8 +91,8 @@
         </div>
     </section>
     <!-- Nos produit -->
-    <section>
-        <h3 class="container">Produit</h3>
+    <section class="marginTopBottom">
+        <h3 class="container" id="produitId">Produit</h3>
         <div class="container spaceBetween displayFlex">
             <div class="card bgYellow">
                 <img src="assets/produit1.png" alt="" class="imgcard">
@@ -111,8 +111,8 @@
                 <div class="paddingCard">
                     <h4>Pain au miel</h4>
                     <p>Le pain au miel est une recette au goût inégalé, fort d’un ancien savoir faire…</p>
-                    <a href="" class="btn">
-                        <img src="./assets/panier-blanc.png" alt="">
+                    <a href="" class="btn bold">
+                        <i class="fa-solid fa-basket-shopping" class="basketCard"></i>
                         Ajouter au panier
                     </a>
                 </div>
@@ -122,8 +122,8 @@
                 <div class="paddingCard">
                     <h4>Figues confites</h4>
                     <p>La figue se marie à merveille à la douceur du miel pour faire revenir vos plates…</p>
-                    <a href="" class="btn">
-                        <img src="./assets/panier-blanc.png" alt="">
+                    <a href="" class="btn bold">
+                        <i class="fa-solid fa-basket-shopping" class="basketCard"></i>
                         Ajouter au panier
                     </a>
                 </div>
@@ -131,9 +131,9 @@
         </div>
     </section>
     <!-- Avis -->
-    <section class="bgYellow ">
-        <h3 class="container">Nos Clients</h3>
-        <div class="container spaceBetween displayFlex marginTopBottom">
+    <section class="bgYellow paddingSectionUP ">
+        <h3 class="container marginBottom" id="clientsId">Nos Clients</h3>
+        <div class="container spaceBetween displayFlex marginBottom marginTop">
             <div class="width30">
                 <div>
                     <div class="displayFlex alignItemCenter">
@@ -182,15 +182,15 @@
     </section>
     <!-- nous trouver -->
     <section>
-        <h3 class="container">Nous trouver</h3>
         <!-- carte -->
         <div class="container localisation">
+            <h3 class="marginBottom">Nous trouver</h3>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.1974981478093!2d4.356613975449251!3d45.40535683736415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5aee28ef51b4b%3A0xc80903a95d39c929!2s12%20Rue%20Jean-Pierre%20Blachier%2C%2042150%20La%20Ricamarie!5e0!3m2!1sfr!2sfr!4v1730710434453!5m2!1sfr!2sfr"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade""></iframe>
+                referrerpolicy="no-referrer-when-downgrade" class="width100"></iframe>
             <address class="marginBottom">
-            <p class=" laRuche">La ruche, apiculteur</p>
+                <p class=" laRuche">La ruche, apiculteur</p>
                 <p class="fontAdress">15 rue Jean-Pierre Blachier</p>
                 <p class="fontAdress">42520 Maclas</p>
             </address>
@@ -201,10 +201,14 @@
             <div class="displayFlex spaceBetween container">
                 <div>
                     <h3>Contactez nous</h3>
-                    <div class="block">
-                        <a href="tel:+33468205334">04.68.20.53.34</a>
-                        <a href="mailto:laruche@orange.fr">laruche@orange.fr</a>
-                    </div>
+                    <a class="block bold" href="tel:+33468205334">
+                        <i class="fa-solid fa-square-phone"></i>04.68.20.53.34
+                    </a>
+
+                    <a href="mailto:laruche@orange.fr" class="block bold">
+                        <i class="fa-solid fa-envelope"></i>laruche@orange.fr
+                    </a>
+
                     <p class="bold marginTopBottom">Du lundi au vendredi
                         <br>
                         8h → 12h | 14h → 18h
@@ -216,23 +220,23 @@
                 </div>
                 <div>
                     <h3>Réseaux</h3>
-                    <a href="">
+                    <a href="https://www.facebook.com/?locale=fr_FR" target="_blank">
                         <img src="./assets/fb.png" alt="">
                     </a>
-                    <a href="">
+                    <a href="https://about.instagram.com/fr-fr" target="_blank">
                         <img src="./assets/insta.png" alt="">
                     </a>
                 </div>
                 <div>
                     <h3>Information</h3>
                     <ul>
-                        <li class="marginTop">
+                        <li class="marginTopBottom">
                             <a href="">→ Plan du site</a>
                         </li>
-                        <li>
+                        <li class="marginTopBottom">
                             <a href="">→ Condition générale de vente</a>
                         </li>
-                        <li>
+                        <li class="marginTopBottom">
                             <a href="">→ Information légales</a>
                         </li>
                     </ul>
